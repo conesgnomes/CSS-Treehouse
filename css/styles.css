@@ -1,0 +1,146 @@
+body {
+  background: #edeff0;
+  font-family: 'Comfortaa', sans-serif;
+}
+
+.head {
+  position: relative;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+.head {
+  overflow: auto;
+  margin: 0 20px;
+}
+
+.head:after {
+  content: "";
+  display: block;
+  box-shadow: 0px 0px 8px 2px #888888;
+  margin-top: 65px;
+}
+
+ul {
+  padding: 0;
+}
+
+.head li {
+  float: right;
+}
+
+.fa {
+  opacity: .2;
+}
+
+.fa-bell-o {
+  margin-right: 20px;
+}
+
+.fa-arrow-circle-o-right {
+  padding: 0 20px;
+  margin: 0 20px;
+  border-right: solid #888888 2px;
+  border-left: solid #888888 2px;
+}
+
+.fa-chevron-down {
+  margin-top: 8px;
+}
+
+.fa-user-circle-o {
+  margin: 0 8px;
+}
+
+#score {
+  font-size: 1.2em;
+  opacity: .2;
+  font-weight: 700;
+  padding-top: 8px;
+}
+
+#library {
+  float: left;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+.lesson-cards {
+  margin: 15px 20px 30px 20px;
+}
+
+.java-group {
+  width: 515px;
+  height: 315px;
+  border-radius: 5px;
+  background: white;
+}
+
+.java-head {
+  background: #2c9676;
+  height: 60px;
+}
+
+.card-head {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.card-head li {
+  float: left;
+  color: white;
+}
+
+#time {
+  float: right;
+  color: white;
+  font-size: 0.8em;
+  font-weight: 700;
+}
+
+.books {
+  margin: 0;
+  padding: 20px 25px;
+}
+
+.fa-columns {
+  opacity: 1;
+  margin-right: 20px;
+}
+
+.fa-circle-o {
+  margin-right: 5px;
+  transform: scale(0.75, 0.75);
+}
+
+.card-body {
+  padding: 25px;
+}
+
+.course {
+  font-weight: 700;
+}
+
+.card-body p {
+  margin: 0;
+  color: #7e8e91;
+  font-size: .8em;
+}
+
+.card-body h1 {
+  color: #4b5658;
+  font-size: 1.1em;
+  font-weight: 700;
+  margin-top: 7px;
+  margin-bottom: 20px;
+}
+
+.description {
+  line-height: 1.5em;
+}

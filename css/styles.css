@@ -75,7 +75,7 @@ ul {
   margin: 15px 20px 30px 20px;
 }
 
-.java-group {
+.card-group {
   width: 515px;
   height: 315px;
   border-radius: 5px;
@@ -84,12 +84,12 @@ ul {
 
 .java-head {
   background: #2c9676;
-  height: 60px;
 }
 
 .card-head {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+  height: 60px;
 }
 
 .card-head li {
@@ -121,6 +121,7 @@ ul {
 
 .card-body {
   padding: 25px;
+  position: relative;
 }
 
 .course {
@@ -143,4 +144,35 @@ ul {
 
 .description {
   line-height: 1.5em;
+}
+
+.bottom-row {
+  margin-top: 40px;
+  font-size: .83em;
+  font-weight: 700;
+  overflow: auto;
+}
+
+.bottom-row span {
+  border: solid 2px #edeff0;
+  padding: 8px 10px;
+  border-radius: 100px;
+
+}
+
+.bottom-row span:nth-child(2) {
+  color: #7e8e91;
+}
+
+.java {
+  color: #2c9676;
+}
+
+.bottom-row span{
+  float: left;
+  margin-right: 7px;
+}
+.bottom-row i {
+  float: right;
+  margin-left: 12px;
 }
